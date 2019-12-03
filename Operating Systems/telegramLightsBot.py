@@ -111,7 +111,7 @@ def handle(msg):
 
 
 if __name__ == '__main__':
-    bot = telepot.Bot("758252574:AAEf1Rr8uBUtuAjavkhZBvHPFoA4EywPh1s")
+    bot = telepot.Bot([OMITTED API KEY])
     print(bot.getMe())
     MessageLoop(bot, handle).run_as_thread()
 
